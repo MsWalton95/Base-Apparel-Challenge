@@ -139,8 +139,7 @@
   body header .hero #hero-desktop {
     display: block;
     float: right;
-    height: 100vh;
-    min-height: 600px;
+    min-height: 900px;
     width: 42vw;
     -o-object-fit: cover;
        object-fit: cover;
@@ -151,8 +150,7 @@
     display: none;
   }
   body section {
-    height: 100vh;
-    min-height: 600px;
+    min-height: 900px;
     width: 58vw;
     text-align: left;
     padding: 0;

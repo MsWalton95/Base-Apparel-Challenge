@@ -174,8 +174,7 @@ $family:'Josefin Sans';
                 #hero-desktop {
                     display: block;
                     float: right;
-                    height: 100vh;
-                    min-height: 600px;
+                    min-height: 900px;
                     width: 42vw;
                     object-fit: cover;
                     object-position: 0 0;
@@ -188,8 +187,7 @@ $family:'Josefin Sans';
         }
 
         section {
-            height: 100vh;
-            min-height: 600px;
+            min-height: 900px;
             width: 58vw;
             text-align: left;
             padding: 0;
