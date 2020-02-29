@@ -1,0 +1,210 @@
+/**********Colors**********/
+/**********Typography**********/
+/**********Layout**********/
+@media screen and (min-width: 50px) {
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body {
+    font-size: 16px;
+    font-family: "Josefin Sans";
+    width: 375px;
+    margin: 0 auto;
+  }
+  body .content {
+    background: linear-gradient(135deg, white, #fff5f5);
+  }
+  body header .logo {
+    background: white;
+  }
+  body header .logo #logo {
+    width: 125px;
+    padding: 1.5em 1em;
+  }
+  body header .hero #hero-desktop {
+    display: none;
+  }
+  body section {
+    padding: 2em 0;
+    text-align: center;
+  }
+  body section #logo2 {
+    display: none;
+  }
+  body section .text {
+    padding: 1rem;
+  }
+  body section .text h1 {
+    text-transform: uppercase;
+    letter-spacing: 16px;
+    font-size: 2.5em;
+    padding: 1rem 0;
+  }
+  body section .text h1 span {
+    color: #ce9797;
+    font-weight: 300;
+  }
+  body section .text p {
+    color: #ce9797;
+    line-height: 1.5em;
+  }
+  body section .input-email {
+    width: 85%;
+    margin: 1em auto 3em;
+    position: relative;
+  }
+  body section .input-email input {
+    border-radius: 45px;
+    border: thin solid #ce9797;
+    padding: 1em;
+    width: 100%;
+    height: 3rem;
+    background: none;
+    color: #ce9797;
+  }
+  body section .input-email input::-webkit-input-placeholder {
+    color: rgba(206, 151, 151, 0.5);
+  }
+  body section .input-email input:-ms-input-placeholder {
+    color: rgba(206, 151, 151, 0.5);
+  }
+  body section .input-email input::-ms-input-placeholder {
+    color: rgba(206, 151, 151, 0.5);
+  }
+  body section .input-email input::placeholder {
+    color: rgba(206, 151, 151, 0.5);
+  }
+  body section .input-email input:focus {
+    outline: none;
+    background: white;
+  }
+  body section .input-email #error {
+    position: absolute;
+    right: 6.5em;
+    top: 25%;
+  }
+  body section .input-email #error-msg,
+  body section .input-email #subscribe-msg {
+    position: absolute;
+    color: #f96262;
+    margin: 0.75em;
+  }
+  body section button {
+    height: 3rem;
+    padding: 1em 1.7em;
+    border-radius: 45px;
+    border: none;
+    position: absolute;
+    background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+    right: 0;
+    -webkit-box-shadow: 5px 5px 15px rgba(206, 151, 151, 0.5);
+            box-shadow: 5px 5px 15px rgba(206, 151, 151, 0.5);
+  }
+  body section button:hover {
+    opacity: 0.7;
+  }
+  body section button:focus {
+    outline: none;
+  }
+  body footer {
+    z-index: 10;
+    position: relative;
+  }
+  body footer .attribution {
+    font-size: 11px;
+    text-align: center;
+    background: #413a3a;
+    padding: 1em;
+    color: #ce9797;
+  }
+  body footer .attribution a {
+    color: white;
+    text-decoration: none;
+  }
+  body footer .attribution a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    width: 100vw;
+  }
+  body header .logo {
+    display: none;
+  }
+  body header .hero #hero-desktop {
+    display: block;
+    float: right;
+    height: 100vh;
+    min-height: 600px;
+    width: 42vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 0 0;
+       object-position: 0 0;
+  }
+  body header .hero #hero-mobile {
+    display: none;
+  }
+  body section {
+    height: 100vh;
+    min-height: 600px;
+    width: 58vw;
+    text-align: left;
+    padding: 0;
+    background-image: url("images/bg-pattern-desktop.svg");
+    background-size: cover;
+    background-position: top left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body section .sect {
+    width: 55%;
+    margin: 1em;
+  }
+  body section .sect #logo2 {
+    display: block;
+    margin-bottom: 5em;
+    width: 125px;
+  }
+  body section .sect .text {
+    padding: 0;
+  }
+  body section .sect .text h1 {
+    font-size: 3.5rem;
+  }
+  body section .sect .text p {
+    max-width: 650px;
+  }
+  body section .sect .input-email {
+    margin: 2em 0;
+    position: relative;
+  }
+  body section .sect .input-email #error {
+    position: absolute;
+    right: 6.5em;
+    top: 25%;
+  }
+  body section .sect .input-email #error-msg,
+  body section .sect .input-email #subscribe-msg {
+    position: absolute;
+    color: #f96262;
+    margin: 1em;
+    width: 100%;
+  }
+  body section .sect .input-email button {
+    padding: 0em 3em;
+  }
+}
+/*# sourceMappingURL=style.css.map */
